@@ -1,58 +1,50 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const lightCodeTheme = require("prism-react-renderer/themes/github");
+const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Planify',
-  tagline: 'Sistema de Gerenciamento de Projetos de P&D',
-  favicon: 'img/favicon.ico',
+  title: "Planify",
+  tagline: "Sistema de Gerenciamento de Projetos de P&D",
+  favicon: "img/favicon.ico",
 
   // Set the production url of your site here
-  url: 'https://planify-docs.com',
+  url: "https://planify-docs.com",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: "/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'planify', // Usually your GitHub org/user name.
-  projectName: 'planify', // Usually your repo name.
+  organizationName: "JPEDROPS092", // Usually your GitHub org/user name.
+  projectName: "Planify-main-pd", // Usually your repo name.
 
-  onBrokenLinks: 'warn',
-  onBrokenMarkdownLinks: 'warn',
+  onBrokenLinks: "warn",
+  onBrokenMarkdownLinks: "warn",
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'pt-BR',
-    locales: ['pt-BR', 'en'],
+    defaultLocale: "pt-BR",
+    locales: ["pt-BR", "en"],
   },
 
   presets: [
     [
-      'classic',
+      "classic",
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
+          sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/seu-usuario/Planify/tree/main/docs/',
-        },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/seu-usuario/Planify/tree/main/docs/',
+          editUrl: "https://github.com/JPEDROPS092/Planify-main-pd",
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve("./src/css/custom.css"),
         },
       }),
     ],
@@ -62,75 +54,75 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/planify-social-card.jpg',
+      image: "img/planify-social-card.jpg",
       navbar: {
-        title: 'Planify',
+        title: "Planify",
         logo: {
-          alt: 'Planify Logo',
-          src: 'img/logo.svg',
+          alt: "Planify Logo",
+          src: "img/logop.png",
         },
         items: [
           {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Documentação',
+            type: "docSidebar",
+            sidebarId: "tutorialSidebar",
+            position: "left",
+            label: "Documentação",
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          { to: "/blog", label: "Blog", position: "left" },
           {
-            href: 'https://github.com/seu-usuario/Planify',
-            label: 'GitHub',
-            position: 'right',
+            href: "https://github.com/JPEDROPS092/Planify-main-pd",
+            label: "GitHub",
+            position: "right",
           },
           {
-            type: 'localeDropdown',
-            position: 'right',
+            type: "localeDropdown",
+            position: "right",
           },
         ],
       },
       footer: {
-        style: 'dark',
+        style: "dark",
         links: [
           {
-            title: 'Documentação',
+            title: "Documentação",
             items: [
               {
-                label: 'Introdução',
-                to: '/docs/intro',
+                label: "Introdução",
+                to: "/docs/intro",
               },
               {
-                label: 'Instalação',
-                to: '/docs/getting-started/installation',
+                label: "Instalação",
+                to: "/docs/getting-started/installation",
               },
               {
-                label: 'Guia do Usuário',
-                to: '/docs/user-guide/overview',
+                label: "Guia do Usuário",
+                to: "/docs/user-guide/overview",
               },
             ],
           },
           {
-            title: 'Comunidade',
+            title: "Comunidade",
             items: [
               {
-                label: 'GitHub Discussions',
-                href: 'https://github.com/seu-usuario/Planify/discussions',
+                label: "GitHub Discussions",
+                href: "https://github.com/seu-usuario/Planify/discussions",
               },
               {
-                label: 'Discord',
-                href: 'https://discord.gg/planify',
+                label: "Discord",
+                href: "https://discord.gg/planify",
               },
             ],
           },
           {
-            title: 'Mais',
+            title: "Mais",
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: "Blog",
+                to: "/blog",
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/seu-usuario/Planify',
+                label: "GitHub",
+                href: "https://github.com/JPEDROPS092/Planify-main-pd",
               },
             ],
           },
@@ -140,7 +132,7 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
-        additionalLanguages: ['bash', 'diff', 'json', 'python', 'javascript'],
+        additionalLanguages: ["bash", "diff", "json", "python", "javascript"],
       },
       // Comment out Algolia search configuration until proper credentials are set up
       /*

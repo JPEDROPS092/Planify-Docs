@@ -9,8 +9,8 @@ export default {
   "favicon": "img/favicon.ico",
   "url": "https://planify-docs.com",
   "baseUrl": "/",
-  "organizationName": "planify",
-  "projectName": "planify",
+  "organizationName": "JPEDROPS092",
+  "projectName": "Planify-main-pd",
   "onBrokenLinks": "warn",
   "onBrokenMarkdownLinks": "warn",
   "i18n": {
@@ -27,15 +27,11 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "/home/jpcode092/projects/Planify-main/docs/sidebars.js",
-          "editUrl": "https://github.com/seu-usuario/Planify/tree/main/docs/"
-        },
-        "blog": {
-          "showReadingTime": true,
-          "editUrl": "https://github.com/seu-usuario/Planify/tree/main/docs/"
+          "sidebarPath": "/home/jpcode092/projects/Planify-Docs/sidebars.js",
+          "editUrl": "https://github.com/JPEDROPS092/Planify-main-pd"
         },
         "theme": {
-          "customCss": "/home/jpcode092/projects/Planify-main/docs/src/css/custom.css"
+          "customCss": "/home/jpcode092/projects/Planify-Docs/src/css/custom.css"
         }
       }
     ]
@@ -46,7 +42,7 @@ export default {
       "title": "Planify",
       "logo": {
         "alt": "Planify Logo",
-        "src": "img/logo.svg"
+        "src": "img/logop.png"
       },
       "items": [
         {
@@ -61,7 +57,7 @@ export default {
           "position": "left"
         },
         {
-          "href": "https://github.com/seu-usuario/Planify",
+          "href": "https://github.com/JPEDROPS092/Planify-main-pd",
           "label": "GitHub",
           "position": "right"
         },
@@ -116,7 +112,7 @@ export default {
             },
             {
               "label": "GitHub",
-              "href": "https://github.com/seu-usuario/Planify"
+              "href": "https://github.com/JPEDROPS092/Planify-main-pd"
             }
           ]
         }
